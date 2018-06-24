@@ -1,0 +1,76 @@
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="hstyle.css">
+</head>
+
+<body>
+<div class="section"></div>
+  <main>
+    <center>
+      <div class="section"></div>
+
+      <h5 class="indigo-text">Create a new account</h5>
+      <div class="section"></div>
+
+      <div class="container">
+        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+          <form class="col s12" method="post" action="confirm_new_account.php">
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+              <i class="material-icons prefix"></i>
+                <input class='validate' type='text' name='username' id='username' />
+                <label for='username'>Enter the username</label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+              <i class="material-icons prefix"></i>
+                <input class='validate' type='password' name='password' id='password' />
+                <label for='password'>Enter the password</label>
+              </div>
+            </div>
+            <div class='row'>
+                <div class='input-field col s12'>
+                <i class="material-icons prefix"></i>
+                  <input class='validate' type='password' name='manpassword' id='manpassword' />
+                  <label for='manpassword'>Enter access code</label>
+                </div>
+              </div>
+
+            <label style='float: right; font-size: 20px;'>
+                <a class='green-text' href='index.php'><b>Return to login!</b></a>
+              </label><br>
+            <br />
+            <center>
+              <div class='row'>
+                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Submit</button>
+              </div>
+            </center>
+          </form>
+        </div>
+      </div>
+      
+    </center>
+
+    <div class="section"></div>
+    <div class="section"></div>
+  </main>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+<div class="ocean">
+</div>
+</body>
+
+</html>
